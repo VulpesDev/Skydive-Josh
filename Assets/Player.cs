@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
         anim.SetBool("Back", vertical < -0.01);
         if (!shaking) StartCoroutine(Shaking(magnitude));
     }
-
+    //aaaa
     private IEnumerator Shaking(float magnitude = 0.25f)
     {
         shaking = true;
